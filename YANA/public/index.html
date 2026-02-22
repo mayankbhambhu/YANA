@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for SEO and Performance -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Brand - Professional, elegant, and user-friendly digital solutions. Responsive web design, mobile apps, and brand identity services.">
+    <meta name="keywords" content="premium brand, web design, mobile app, responsive design, professional website, digital solutions">
+    <meta name="author" content="Premium Brand">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Premium Brand - Elevating Your Digital Presence">
+    <meta property="og:description" content="Professional, elegant, and user-friendly digital solutions that transform your brand.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://premiumbrand.com">
+    <meta property="og:image" content="https://premiumbrand.com/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Premium Brand - Elevating Your Digital Presence">
+    <meta name="twitter:description" content="Professional, elegant, and user-friendly digital solutions.">
+    <meta name="twitter:image" content="https://premiumbrand.com/twitter-image.jpg">
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Progressive Web App Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#1e40af">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Premium Brand">
+    
+    <!-- Preconnect to External Resources for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts - Premium Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Page Title -->
+    <title>YANA - Elevating Your Digital Presence</title>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Premium Brand",
+        "description": "Professional, elegant, and user-friendly digital solutions",
+        "url": "https://premiumbrand.com",
+        "logo": "https://premiumbrand.com/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-123-4567",
+            "contactType": "customer service",
+            "email": "hello@premiumbrand.com"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Business Ave, Suite 100",
+            "addressLocality": "City",
+            "addressRegion": "State",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        },
+        "sameAs": [
+            "https://facebook.com/premiumbrand",
+            "https://twitter.com/premiumbrand",
+            "https://linkedin.com/company/premiumbrand"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to Main Content Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Loading Premium Experience...</p>
+    </div>
+    
+    <!-- Navigation Header -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <div class="nav-content">
+                <!-- Logo Section -->
+                <div class="nav-logo">
+                    <img src="https://ci3.googleusercontent.com/meips/ADKq_NanIVVAiKOwvcVVT9BXJ3JZHJwX6GcBYSgDycrKZNgcGcvPlF9IQHcbZBByZ3WAS0aOQR48w-fjbv5EK0VcBxXjkBnRjbvmA3yHt6iza01qtmYWAutKYOv54lHdf76mWWXKjktMHVMs9McRBECqvpgorYRlnwLCwjZmQRwpOqQp7Lbf1QNzZjGtqW2kfE8OF46eRO4xYRCDqsOnh4Sl-BBJDg=s0-d-e1-ft#https://dynamic.design.com/preview/logodraft/f5f02839-d691-4526-bc79-0a16873e192b/image/large.png?bust=c0f8ff55-c18d-495a-9e22-4ec07c78ff1b" alt="Premium Brand - Professional digital solutions logo" class="logo-img">
+                </div>
+                
+                <!-- Desktop Navigation Menu -->
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link" data-section="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link" data-section="services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link" data-section="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary nav-cta" id="nav-cta">
+                    <a href="#contact-form" style="color: white; text-decoration: none;">
+                        Get Started</a></button>
+                </div>
+                
+                <!-- Mobile Menu Toggle Button -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <!-- Background Video -->
+            <div class="hero-video">
+                <video autoplay muted loop playsinline class="hero-video-element" poster="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&crop=center">
+                    <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Elevating Your
+                        <span class="hero-title-gradient">Digital Presence</span>
+                    </h1>
+                    <p class="hero-description">
+                        Professional, elegant, and user-friendly digital solutions that transform your brand and engage your audience across all devices.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large" id="hero-cta-primary">
+                            Start Your Journey
+                        </button>
+                        <button class="btn btn-secondary btn-large" id="hero-cta-secondary">
+                            View Our Work
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2 class="section-title">Our Premium Services</h2>
+                    <p class="section-description">
+                        Comprehensive digital solutions tailored to elevate your brand and drive results
+                    </p>
+                </div>
+                
+                <!-- Services Grid -->
+                <div class="services-grid">
+                    <!-- Service Card 1: Web Design -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=64&h=64&fit=crop&crop=center" alt="Premium web design services icon" class="service-icon-img">
+                        </div>
+                        <h3 class="service-title">Web Design</h3>
+                        <p class="service-description">
+                            Stunning, responsive websites that captivate your audience and drive conversions across all devices.
+                        </p>
+                        <a href="#" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <!-- Service Card 2: Mobile Apps -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=64&h=64&fit=crop&crop=center" alt="Mobile app development services icon" class="service-icon-img">
+                        </div>
+                        <h3 class="service-title">Mobile Apps</h3>
+                        <p class="service-description">
+                            Native and cross-platform mobile applications that provide seamless user experiences.
+                        </p>
+                        <a href="#" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <!-- Service Card 3: Brand Identity -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=64&h=64&fit=crop&crop=center" alt="Brand identity and design services icon" class="service-icon-img">
+                        </div>
+                        <h3 class="service-title">Brand Identity</h3>
+                        <p class="service-description">
+                            Complete brand identity solutions that establish your unique presence in the market.
+                        </p>
+                        <a href="#" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <!-- Service Card 4: Digital Marketing -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=64&h=64&fit=crop&crop=center" alt="Digital marketing services icon" class="service-icon-img">
+                        </div>
+                        <h3 class="service-title">Digital Marketing</h3>
+                        <p class="service-description">
+                            Strategic digital marketing campaigns that amplify your brand reach and engagement.
+                        </p>
+                        <a href="#" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <!-- Service Card 5: E-commerce -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-icon">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=64&h=64&fit=crop&crop=center" alt="E-commerce development services icon" class="service-icon-img">
+                        </div>
+                        <h3 class="service-title">E-commerce</h3>
+                        <p class="service-description">
+                            Powerful e-commerce platforms that drive sales and provide exceptional shopping experiences.
+                        </p>
+                        <a href="#" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <!-- Service Card 6: Consulting -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-icon">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=center" alt="Digital consulting services icon" class="service-icon-img">
+                        </div>
+                        <h3 class="service-title">Consulting</h3>
+                        <p class="service-description">
+                            Expert digital strategy consulting to guide your business transformation journey.
+                        </p>
+                        <a href="#" class="service-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="about-content">
+                    <!-- About Text Content -->
+                    <div class="about-text" data-aos="fade-right">
+                        <h2 class="section-title">Crafting Digital Excellence Since Day One</h2>
+                        <p class="about-lead">
+                            We are passionate about creating premium digital experiences that not only look stunning but also deliver exceptional performance and user engagement.
+                        </p>
+                        <p class="about-description">
+                            Our team combines creative vision with technical expertise to build solutions that drive real business results. From responsive web design to mobile applications, we ensure every project meets the highest standards of quality and innovation.
+                        </p>
+                        
+                        <!-- About Stats -->
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="500">0</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="150">0</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="5">0</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                        
+                        <!-- About Buttons -->
+                        <div class="about-buttons">
+                            <button class="btn btn-primary" id="about-story-btn">Our Story</button>
+                            <button class="btn btn-outline" id="about-team-btn">Meet the Team</button>
+                        </div>
+                    </div>
+                    
+                    <!-- About Image -->
+                    <div class="about-image" data-aos="fade-left">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=500&fit=crop&crop=center" alt="Professional team working on premium digital solutions in modern office environment" class="about-img">
+                        <div class="about-badge">
+                            <div class="badge-number">500+</div>
+                            <div class="badge-text">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2 class="section-title">Featured Work</h2>
+                    <p class="section-description">
+                        Discover our latest projects and see how we transform ideas into exceptional digital experiences
+                    </p>
+                </div>
+                
+                <!-- Portfolio Filter -->
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                </div>
+                
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid" id="portfolio-grid">
+                    <!-- Portfolio Item 1 -->
+                    <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&crop=center" alt="Modern e-commerce platform design showcase with clean interface and user-friendly navigation" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h3 class="portfolio-title">E-commerce Platform</h3>
+                                    <p class="portfolio-category">Web Design</p>
+                                    <div class="portfolio-buttons">
+                                        <button class="portfolio-btn" data-action="view">View Project</button>
+                                        <button class="portfolio-btn" data-action="demo">Live Demo</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop&crop=center" alt="Sleek mobile banking app interface design with intuitive user experience and security features" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h3 class="portfolio-title">Banking App</h3>
+                                    <p class="portfolio-category">Mobile App</p>
+                                    <div class="portfolio-buttons">
+                                        <button class="portfolio-btn" data-action="view">View Project</button>
+                                        <button class="portfolio-btn" data-action="demo">Live Demo</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio-item" data-category="branding" data-aos="fade-up" data-aos-delay="200">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop&crop=center" alt="Professional corporate website redesign project featuring modern layout and brand integration" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h3 class="portfolio-title">Corporate Rebrand</h3>
+                                    <p class="portfolio-category">Brand Identity</p>
+                                    <div class="portfolio-buttons">
+                                        <button class="portfolio-btn" data-action="view">View Project</button>
+                                        <button class="portfolio-btn" data-action="demo">Live Demo</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=400&h=300&fit=crop&crop=center" alt="Creative agency portfolio website with stunning visual design and smooth animations" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h3 class="portfolio-title">Agency Portfolio</h3>
+                                    <p class="portfolio-category">Web Design</p>
+                                    <div class="portfolio-buttons">
+                                        <button class="portfolio-btn" data-action="view">View Project</button>
+                                        <button class="portfolio-btn" data-action="demo">Live Demo</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 5 -->
+                    <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="400">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center" alt="Fitness tracking mobile app with modern UI design and comprehensive health features" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h3 class="portfolio-title">Fitness Tracker</h3>
+                                    <p class="portfolio-category">Mobile App</p>
+                                    <div class="portfolio-buttons">
+                                        <button class="portfolio-btn" data-action="view">View Project</button>
+                                        <button class="portfolio-btn" data-action="demo">Live Demo</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="500">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center" alt="Restaurant website design with elegant layout and online ordering system integration" class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h3 class="portfolio-title">Restaurant Website</h3>
+                                    <p class="portfolio-category">Web Design</p>
+                                    <div class="portfolio-buttons">
+                                        <button class="portfolio-btn" data-action="view">View Project</button>
+                                        <button class="portfolio-btn" data-action="demo">Live Demo</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- View All Button -->
+                <div class="portfolio-cta">
+                    <button class="btn btn-primary btn-large" id="portfolio-view-all">View All Projects</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <p class="section-description">
+                        Trusted by businesses worldwide for exceptional digital solutions
+                    </p>
+                </div>
+                
+                <!-- Testimonials Slider -->
+                <div class="testimonials-slider" id="testimonials-slider">
+                    <div class="testimonials-track">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-slide active">
+                            <div class="testimonial-content">
+                                <div class="testimonial-text">
+                                    "Premium Brand transformed our digital presence completely. Their attention to detail and professional approach exceeded our expectations. The website they created is not only beautiful but also drives real results for our business."
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Sarah Johnson, CEO of TechStart Inc." class="author-avatar">
+                                    <div class="author-info">
+                                        <div class="author-name">Sarah Johnson</div>
+                                        <div class="author-title">CEO, TechStart Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="testimonial-text">
+                                    "Working with Premium Brand was an absolute pleasure. They understood our vision perfectly and delivered a mobile app that our users love. The user experience is seamless and the design is stunning."
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face" alt="Michael Chen, Founder of AppVenture" class="author-avatar">
+                                    <div class="author-info">
+                                        <div class="author-name">Michael Chen</div>
+                                        <div class="author-title">Founder, AppVenture</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="testimonial-text">
+                                    "The brand identity work Premium Brand did for us was exceptional. They captured our company's essence perfectly and created a cohesive brand experience across all touchpoints. Highly recommended!"
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face" alt="Emily Rodriguez, Marketing Director at GrowthCo" class="author-avatar">
+                                    <div class="author-info">
+                                        <div class="author-name">Emily Rodriguez</div>
+                                        <div class="author-title">Marketing Director, GrowthCo</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slider Controls -->
+                    <div class="testimonials-controls">
+                        <button class="testimonial-btn prev" id="testimonial-prev" aria-label="Previous testimonial">‹</button>
+                        <div class="testimonials-dots">
+                            <button class="dot active" data-slide="0"></button>
+                            <button class="dot" data-slide="1"></button>
+                            <button class="dot" data-slide="2"></button>
+                        </div>
+                        <button class="testimonial-btn next" id="testimonial-next" aria-label="Next testimonial">›</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2 class="section-title">Let's Create Something Amazing</h2>
+                    <p class="section-description">
+                        Ready to elevate your digital presence? Get in touch and let's discuss your next project.
+                    </p>
+                </div>
+                
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper" data-aos="fade-right">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" class="form-input" required>
+                                    <span class="form-error" id="firstName-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" class="form-input" required>
+                                    <span class="form-error" id="lastName-error"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                                <span class="form-error" id="phone-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service" class="form-label">Service Interest</label>
+                                <select id="service" name="service" class="form-select">
+                                    <option value="">Select a service</option>
+                                    <option value="web-design">Web Design</option>
+                                    <option value="mobile-app">Mobile App</option>
+                                    <option value="branding">Brand Identity</option>
+                                    <option value="digital-marketing">Digital Marketing</option>
+                                    <option value="e-commerce">E-commerce</option>
+                                    <option value="consulting">Consulting</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="5" required placeholder="Tell us about your project..."></textarea>
+                                <span class="form-error" id="message-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <span class="checkbox-custom"></span>
+                                    I agree to the <a href="#" class="privacy-link">Privacy Policy</a> and <a href="#" class="privacy-link">Terms of Service</a> *
+                                </label>
+                                <span class="form-error" id="privacy-error"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large form-submit" id="form-submit">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading">Sending...</span>
+                            </button>
+                        </form>
+                        
+                        <!-- Form Success Message -->
+                        <div id="form-success" class="form-message success" style="display: none;">
+                            <h3>Thank you for your message!</h3>
+                            <p>We'll get back to you within 24 hours.</p>
+                        </div>
+                        
+                        <!-- Form Error Message -->
+                        <div id="form-error" class="form-message error" style="display: none;">
+                            <h3>Oops! Something went wrong.</h3>
+                            <p>Please try again or contact us directly.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Information -->
+                    <div class="contact-info" data-aos="fade-left">
+                        <div class="contact-info-content">
+                            <h3 class="contact-info-title">Get In Touch</h3>
+                            <p class="contact-info-description">
+                                We'd love to hear about your project and discuss how we can help bring your vision to life.
+                            </p>
+                            
+                            <!-- Contact Details -->
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <img src="https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=24&h=24&fit=crop&crop=center" alt="Email contact icon" class="contact-icon-img">
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4 class="contact-label">Email Us</h4>
+                                        <p class="contact-value">hello@premiumbrand.com</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=24&h=24&fit=crop&crop=center" alt="Phone contact icon" class="contact-icon-img">
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4 class="contact-label">Call Us</h4>
+                                        <p class="contact-value">+1 (555) 123-4567</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=24&h=24&fit=crop&crop=center" alt="Office location icon" class="contact-icon-img">
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4 class="contact-label">Visit Us</h4>
+                                        <p class="contact-value">123 Business Ave<br>Suite 100<br>City, State 12345</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Social Media Links -->
+                            <div class="social-links">
+                                <h4 class="social-title">Follow Us</h4>
+                                <div class="social-icons">
+                                    <a href="#" class="social-link" aria-label="Facebook">
+                                        <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?w=24&h=24&fit=crop&crop=center" alt="Facebook social media link" class="social-icon">
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Twitter">
+                                        <img src="https://images.unsplash.com/photo-1611605698335-8b1569810432?w=24&h=24&fit=crop&crop=center" alt="Twitter social media link" class="social-icon">
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="LinkedIn">
+                                        <img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?w=24&h=24&fit=crop&crop=center" alt="LinkedIn social media link" class="social-icon">
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Instagram">
+                                        <img src="https://images.unsplash.com/photo-1611262588019-db6cc2032da3?w=24&h=24&fit=crop&crop=center" alt="Instagram social media link" class="social-icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer Logo and Description -->
+                <div class="footer-section">
+                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=40&fit=crop&crop=center" alt="Premium Brand logo in white for footer" class="footer-logo">
+                    <p class="footer-description">
+                        Elevating your digital presence with professional, elegant, and user-friendly solutions.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" aria-label="Facebook">
+                            <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?w=24&h=24&fit=crop&crop=center" alt="Facebook social media link" class="footer-social-icon">
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Twitter">
+                            <img src="https://images.unsplash.com/photo-1611605698335-8b1569810432?w=24&h=24&fit=crop&crop=center" alt="Twitter social media link" class="footer-social-icon">
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="LinkedIn">
+                            <img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?w=24&h=24&fit=crop&crop=center" alt="LinkedIn social media link" class="footer-social-icon">
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Instagram">
+                            <img src="https://images.unsplash.com/photo-1611262588019-db6cc2032da3?w=24&h=24&fit=crop&crop=center" alt="Instagram social media link" class="footer-social-icon">
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Services Links -->
+                <div class="footer-section">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Web Design</a></li>
+                        <li><a href="#" class="footer-link">Mobile Apps</a></li>
+                        <li><a href="#" class="footer-link">Brand Identity</a></li>
+                        <li><a href="#" class="footer-link">Digital Marketing</a></li>
+                        <li><a href="#" class="footer-link">E-commerce</a></li>
+                        <li><a href="#" class="footer-link">Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company Links -->
+                <div class="footer-section">
+                    <h3 class="footer-title">Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Our Team</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">Case Studies</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Resources Links -->
+                <div class="footer-section">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Documentation</a></li>
+                        <li><a href="#" class="footer-link">Support</a></li>
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        <li><a href="#" class="footer-link">Cookie Policy</a></li>
+                        <li><a href="#" class="footer-link">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Premium Brand. All rights reserved. Crafted with passion for digital excellence.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#" class="footer-legal-link">Privacy</a>
+                    <a href="#" class="footer-legal-link">Terms</a>
+                    <a href="#" class="footer-legal-link">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <span class="back-to-top-icon">↑</span>
+    </button>
+    
+    <!-- JavaScript Files -->
+    <script src="scripts.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
